@@ -74,8 +74,6 @@ def create_periodic_dataframe(
 	
 	except Exception as e:
 	        print(f"Ошибка при создании строковых временных меток: {e}")
-	        return pd.DataFrame()
-
 
 
 def convert_to_datetime(df: pd.DataFrame) -> pd.DataFrame:
@@ -107,7 +105,6 @@ def convert_to_datetime(df: pd.DataFrame) -> pd.DataFrame:
 		raise ValueError(f"Ошибка преобразования в datetime: {e}")
 
 
-
 def extract_parts(df: pd.DataFrame) -> pd.DataFrame:
 	"""
 	Извлечение дня, месяца и года из временной метки.
@@ -118,7 +115,7 @@ def extract_parts(df: pd.DataFrame) -> pd.DataFrame:
 
 	Returns:
 		pd.DataFrame: Таблица с новыми столбцами:
-			- "timestamp" (копия исходного)
+		#	- "timestamp" (копия исходного)
 			- "day" (день месяца, int)
 			- "month" (номер месяца, int)
 			- "year" (год, int)
