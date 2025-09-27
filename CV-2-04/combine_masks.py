@@ -2,7 +2,7 @@
 # -*- coding: utf-8  -*-
 # -*- mode:   python -*-
 
-# This file is part of the educational CV tasks.
+# This file is part of the educational OpenCV tasks.
 #
 # Copyright (C) 2025  ferrovovan
 #
