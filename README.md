@@ -98,6 +98,7 @@ git log --oneline --graph --decorate
 git show-branch
 ```
 
+# **Как же намучился с раздельными ветками. Да ну их.**
 
 ## Лицензия
 Весь код распространяется под лицензией [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
