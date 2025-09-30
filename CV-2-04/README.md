@@ -38,7 +38,7 @@ sudo pacman -S python-opencv python-numpy
 
 ### Документация (описание воплощения)
 
-Решение хранится в одном файле `combine_masks.py`.  
+Решение хранится в одном файле `combine_color_masks.py`.  
 Данный код реализует задачу выделения и объединения цветовых масок (на основе принципов CV-1-12).  
 В отличие от исходного задания, где способ создания красной маски был жёстко встроен в функцию, здесь решение обобщено и оформлено в виде контейнера `ColorMask`.  
 Философия в том, что цвет — это не отдельный «жёсткий случай», а диапазон оттенков, и таких диапазонов у одного цвета может быть несколько.
@@ -120,10 +120,10 @@ sudo pacman -S python-opencv python-numpy
 #### Примеры запуска
 
 ```bash
-python3 combine_masks.py --example_synthetic
+python3 combine_color_masks.py --example_synthetic
 ```
 
 ```bash
-python3 combine_masks.py --file mypic.png
+python3 combine_color_masks.py --file mypic.png
 ```
 
