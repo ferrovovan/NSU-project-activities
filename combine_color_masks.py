@@ -32,7 +32,7 @@ import numpy as np
 
 # Импортируем всё необходимое из CV-1-12
 # import sys
-# sys.path.append(os.path.join(os.path.dirname(__file__), "../CV-1-12"))
+# sys.path.append(os.path.join(os.path.dirname(__file__), "./CV-1-12/"))
 # from pixel_counting import HSV_RED_LOWER_1, HSV_RED_UPPER_1, HSV_RED_LOWER_2, HSV_RED_UPPER_2
 # from pixel_counting import load_image, pixel_counting
 # from pixel_counting import create_image as create_red_gradient_image
