@@ -2,7 +2,4 @@
 	path = CV-2-01
 	url = git@github.com:iceicebabyaf/ck_nsu_3Course.git
 	branch = lab_2
-[submodule "NSU-project-activities"]
-	path = NSU-project-activities
-	url = git@github.com:ferrovovan/NSU-project-activities.git
-	branch = task-2
+
