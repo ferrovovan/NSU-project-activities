@@ -1,5 +1,4 @@
-[submodule "CV-2-01"]
-	path = CV-2-01
-	url = git@github.com:iceicebabyaf/ck_nsu_3Course.git
-	branch = lab_2
-
+[submodule "CV-2-04"]
+	path = CV-2-04
+	url = git@github.com:ferrovovan/NSU-project-activities.git
+	branch = task-2
